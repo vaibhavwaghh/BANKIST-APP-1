@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankist App</title>
+    <link rel="icon" href="logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css  "
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <p class="statement">Welcome to the bank !</p>
+      <img class="image" src="./logo.png      " alt="" />
+      <div class="all-inputs">
+        <input class="user" type="text" placeholder="user" />
+        <input class="password" type="text" placeholder="PIN" />
+        <button class="button">
+          <i id="symbol" class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </header>
+    <div class="bank-details">
+      <main>
+        <div class="big-container">
+          <div class="container-1">
+            <div class="container-1-1">
+              <p class="current">Current balance</p>
+              <p class="present-date-time">As of 28/06/2023, 11:58</p>
+            </div>
+            <span class="amount">25 952,59 €</span>
+          </div>
+          <div class="container-2">
+            <div class="container-2-1"></div>
+            <div class="container-2-2">
+              <div class="container-2-2-1">
+                <div class="trr">Transfer money</div>
+                <div class="nn">
+                  <div class="ss">
+                    <input class="inputt" id="input1" type="text" /><span
+                      class="trr2"
+                      >Transfer to</span
+                    >
+                  </div>
+                  <div class="ss">
+                    <input class="inputt" id="input2" type="number" /><span
+                      class="trr2"
+                      >Amount</span
+                    >
+                  </div>
+                  <button id="button-1" class="bt">→</button>
+                </div>
+              </div>
+              <div class="container-2-2-2">
+                <div class="trr">Request Loan</div>
+                <div class="nn">
+                  <div class="ss">
+                    <input id="loan" class="inputt-2" type="number" /><span
+                      class="trr2"
+                      >Amount</span
+                    >
+                  </div>
+                  <button id="button-2" class="bt">→</button>
+                </div>
+              </div>
+              <div class="container-2-2-3">
+                <div class="trr">Close Account</div>
+                <div class="nn">
+                  <div class="ss">
+                    <input
+                      class="inputt-3"
+                      id="close-acc-name"
+                      type="text"
+                    /><span class="trr2">Confirm user</span>
+                  </div>
+                  <div class="ss">
+                    <input
+                      class="inputt-3"
+                      id="close-acc-pin"
+                      type="number"
+                    /><span class="trr2">Confirm PIN</span>
+                  </div>
+                  <button id="button-3" class="bt">→</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container-3">
+          <div class="operation">
+            <div class="mm">
+              <span>IN</span>
+              <span class="k1">27 035,20 € </span>
+            </div>
+            <div class="mm">
+              <span>OUT</span>
+              <span class="k2"> 1082,61 €</span>
+            </div>
+            <div class="mm">
+              <span>INTREST</span>
+              <span class="k3"> 323,46 €</span>
+            </div>
+            <div>
+              <button class="button-5">↓ SORT</button>
+            </div>
+          </div>
+          <div class="timer">
+            <span>You will be logged out in <span class="timeee"></span> </span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
